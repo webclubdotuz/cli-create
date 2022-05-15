@@ -61,5 +61,5 @@ const start = async () => {
 
   rl.close()
 }
-
+console.log('the end')
 start()
