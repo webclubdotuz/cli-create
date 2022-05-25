@@ -20,6 +20,7 @@ const questions = {
       fileName = fileName.trim()
       history.files.push(fileName)
       fs.writeFile(history.name + '/' + fileName, '', (err) => {
+        console.log('error')
         if (err) throw err
       })
     })
